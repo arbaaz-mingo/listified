@@ -1,0 +1,17 @@
+header {
+	.top-bar {
+		border-bottom: 1px solid $whitish;
+    	background: $white;
+		.top-bar-right {
+			float: right;
+			ul {
+				padding: 0;
+				margin: 0;
+				li {
+					display: inline-block;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}
