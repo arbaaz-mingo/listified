@@ -6,9 +6,27 @@ header .top-bar {
     float: right; }
     header .top-bar .top-bar-right ul {
       padding: 0;
-      margin: 0; }
+      margin: 10px 0; }
       header .top-bar .top-bar-right ul li {
         display: inline-block;
+        font-size: 14px;
         margin-right: 10px; }
+        header .top-bar .top-bar-right ul li .btn-dash {
+          background: transparent;
+          border: transparent;
+          color: #333; }
+          header .top-bar .top-bar-right ul li .btn-dash:focus {
+            outline: none; }
+  header .top-bar .top-bar-left {
+    float: left; }
+    header .top-bar .top-bar-left ul {
+      padding: 0; }
+      header .top-bar .top-bar-left ul li {
+        display: inline-block;
+        float: left;
+        font-size: 15px;
+        margin: 9px 15px; }
+        header .top-bar .top-bar-left ul li a {
+          color: #333; }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,10 +6,34 @@ header {
 			float: right;
 			ul {
 				padding: 0;
-				margin: 0;
+				margin: 10px 0;
 				li {
 					display: inline-block;
+					font-size: 14px;
 					margin-right: 10px;
+					.btn-dash {
+    					background: transparent;
+    					border: transparent;
+						color: $dark;
+						&:focus {
+							outline : none;
+						}
+					}
+				}
+			}
+		}
+		.top-bar-left {
+			float: left;
+			ul {
+				padding: 0;
+				li {
+					display: inline-block;
+    				float: left;
+    				font-size: 15px;
+    				margin: 9px 15px;
+					a {
+						color: $dark;
+					}
 				}
 			}
 		}
