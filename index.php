@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+<!-- Searching -->
 <div id="hero-area">
 	<div class="overlay"></div>
 	<div class="container">
@@ -31,4 +32,21 @@
 		</div>
 	</div>
 </div>
+<!-- End Searching-->
+
+<!-- Categories-->
+<section class="all-categories">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="section-title">Top Categories</h1>
+			</div>
+			
+			<div class="col-sm-12">
+				
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Categories-->
 <?php include('footer.php'); ?>

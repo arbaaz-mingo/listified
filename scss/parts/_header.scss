@@ -42,6 +42,31 @@ header {
 		}
 	}
 	.middle-bar {
+		margin: 7px 0;
+		.navbar {
+			.navbar-nav {
+				li {
+					margin: 0 5px;
+					a {
+						padding: 6px 20px;
+    					border-radius: 6px;
+						font-family: $Quicksand;
+    					font-weight: 700;
+    					color: $dark;
+						&:hover {
+							background: $dark;
+							color: $white;
+						}
+					}
+				}
+				.active {
+					a {
+    					background: $primary;
+						color: $white;
+					}
+				}
+			}
+		}
 		.side-btn {
     		padding: 0;
     		margin: 0;

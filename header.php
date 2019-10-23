@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/library/bootstrap-v4/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="css/library/owl-carousel-v2.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/library/owl-carousel-v2.3/owl.theme.default.min.css">	
 </head>
 <body>
 	<header>
@@ -86,8 +88,8 @@
 					<div class="col-sm-12">
 						<nav class="navbar navbar-expand-lg">
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    								<span class="navbar-toggler-icon"></span>
+  							</button>
 						
 							<a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"></a>
 
