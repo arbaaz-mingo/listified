@@ -43,7 +43,25 @@
 			</div>
 			
 			<div class="col-sm-12">
-				
+				<div class="owl-carousel all-cat-carousel" id="all-categories">
+  					<div>
+						<div class="brand-item">
+                  			<figure><img src="images/brand/" alt=""></figure>
+                  			<h6>Audi</h6>
+                  			<ul>
+                    			<li><a href="#">A3</a></li>
+                    			<li><a href="#">A3</a></li>
+                    			<li><a href="#">A3</a></li>
+                  			</ul>
+               	 		</div>
+					</div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+</div>
 			</div>
 		</div>
 	</div>
