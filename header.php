@@ -13,7 +13,32 @@
 		<div class="top-bar">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-8 col-lg-8 col-sm-4 col-7"></div>
+					<div class="col-xl-8 col-lg-8 col-sm-4 col-7">
+						<div class="top-bar-left">
+							<ul class="socials"> 
+								<li> 
+									<a class="social-icon" href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a> 
+								</li> 
+								<li> 
+									<a class="social-icon" href="#">
+										<i class="fab fa-twitter"></i>
+									</a> 
+								</li> 
+								<li> 
+									<a class="social-icon" href="#">
+										<i class="fab fa-linkedin-in"></i>
+									</a> 
+								</li> 
+								<li> 
+									<a class="social-icon" href="#">
+										<i class="fab fa-instagram"></i>
+									</a> 
+								</li> 
+							</ul>
+						</div>
+					</div>
 					<div class="col-xl-4 col-lg-4 col-sm-4 col-5">
 						<div class="top-bar-right"> 
 							<ul> 
@@ -29,6 +54,19 @@
 										<span>Login</span>
 									</a> 
 								</li> 
+								<li>
+									<div class="dropdown">
+  										<button type="button" class="btn-dash dropdown-toggle" data-toggle="dropdown">
+    										<i class="fas fa-home"></i> Dashboard
+  										</button>
+  										<div class="dropdown-menu">
+    										<a class="dropdown-item" href="#"><i class="fas fa-user"></i> My Profile</a>
+    										<a class="dropdown-item" href="#"><i class="fas fa-user"></i> My Ads</a>
+    										<a class="dropdown-item" href="#"><i class="fas fa-bell"></i> Notifications</a>
+    										<a class="dropdown-item" href="#"><i class="fas fa-power-off"></i> Logout</a>
+  										</div>
+									</div>
+								</li>
 							</ul> 
 						</div>
 					</div>
