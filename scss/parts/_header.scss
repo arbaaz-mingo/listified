@@ -23,6 +23,11 @@ header {
 						}
 					}
 				}
+				.dropdown-menu {
+					a {
+						color: $dark;
+					}
+				}
 			}
 		}
 		.top-bar-left {
@@ -83,4 +88,18 @@ header {
 			}
 		}
 	}
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

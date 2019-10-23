@@ -46,25 +46,120 @@
 				<div class="owl-carousel all-cat-carousel" id="all-categories">
   					<div>
 						<div class="brand-item">
-                  			<figure><img src="images/brand/" alt=""></figure>
-                  			<h6>Audi</h6>
+                  			<figure><img src="images/brand/Vehicles.png" class="img-fluid" alt=""></figure>
+                  			<h6>Clothes</h6>
                   			<ul>
-                    			<li><a href="#">A3</a></li>
-                    			<li><a href="#">A3</a></li>
-                    			<li><a href="#">A3</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
                   			</ul>
                	 		</div>
 					</div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-</div>
+					<div>
+						<div class="brand-item">
+                  			<figure><img src="images/brand/Vehicles.png" class="img-fluid" alt=""></figure>
+                  			<h6>Clothes</h6>
+                  			<ul>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                  			</ul>
+               	 		</div>
+					</div>
+					<div>
+						<div class="brand-item">
+                  			<figure><img src="images/brand/Vehicles.png" class="img-fluid" alt=""></figure>
+                  			<h6>Clothes</h6>
+                  			<ul>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                  			</ul>
+               	 		</div>
+					</div>
+					<div>
+						<div class="brand-item">
+                  			<figure><img src="images/brand/Vehicles.png" class="img-fluid" alt=""></figure>
+                  			<h6>Clothes</h6>
+                  			<ul>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                  			</ul>
+               	 		</div>
+					</div>
+					<div>
+						<div class="brand-item">
+                  			<figure><img src="images/brand/Vehicles.png" class="img-fluid" alt=""></figure>
+                  			<h6>Clothes</h6>
+                  			<ul>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                  			</ul>
+               	 		</div>
+					</div>
+					<div>
+						<div class="brand-item">
+                  			<figure><img src="images/brand/Vehicles.png" class="img-fluid" alt=""></figure>
+                  			<h6>Clothes</h6>
+                  			<ul>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                  			</ul>
+               	 		</div>
+					</div>
+					<div>
+						<div class="brand-item">
+                  			<figure><img src="images/brand/Vehicles.png" class="img-fluid" alt=""></figure>
+                  			<h6>Clothes</h6>
+                  			<ul>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                    			<li><a href="#">Brand Name</a></li>
+                  			</ul>
+               	 		</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 <!-- End Categories-->
+
+<!-- App Download -->
+<section class="app-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5">
+				<img src="images/app-mock.png" class="img-fluid">
+			</div>
+			<div class="col-sm-7">
+				<div class="app-content">
+					<h5><b>DOWNLOAD</b> MOBILE APP</h5>
+					<p>Download our android &amp; apple app now!</p>
+					<div class="download-app">
+						<ul>
+							<li>
+								<a href="#"><img src="images/img_trans.gif" class="img-fluid"></a>
+							</li>
+							<li>
+								<a href="#"><img src="images/img_trans.gif" class="img-fluid"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End App Download -->
 <?php include('footer.php'); ?>

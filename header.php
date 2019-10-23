@@ -70,7 +70,7 @@
 									
 										<div class="dropdown-menu">
 											<a class="dropdown-item" href="#"><i class="fas fa-user"></i> My Profile</a>
-											<a class="dropdown-item" href="#"><i class="fas fa-user"></i> My Ads</a>
+											<a class="dropdown-item" href="#"><i class="fas fa-file-alt"></i> My Ads</a>
 											<a class="dropdown-item" href="#"><i class="fas fa-bell"></i> Notifications</a>
 											<a class="dropdown-item" href="#"><i class="fas fa-power-off"></i> Logout</a>
 										</div>
@@ -123,3 +123,6 @@
 			</div>
 		</div>
 	</header>
+	<div class="preloader js-preloader">
+        <img src="images/preloader.gif" alt="...">
+    </div>

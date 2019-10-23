@@ -13,9 +13,14 @@ $('#all-categories').owlCarousel({
             nav:false
         },
         1000:{
-            items:5,
+            items:6,
             nav:true,
-            loop:false
+            loop:true
         }
     }
+});
+
+$('.js-preloader').preloadinator({
+    minTime: 2000,
+    scroll: false
 });
