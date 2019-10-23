@@ -1,7 +1,10 @@
+/** Fonts **/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap");
 /* Scss Document */
 header .top-bar {
   border-bottom: 1px solid #f2f2f2;
-  background: #fff; }
+  background: #222222; }
   header .top-bar .top-bar-right {
     float: right; }
     header .top-bar .top-bar-right ul {
@@ -11,10 +14,12 @@ header .top-bar {
         display: inline-block;
         font-size: 14px;
         margin-right: 10px; }
+        header .top-bar .top-bar-right ul li a {
+          color: #fff; }
         header .top-bar .top-bar-right ul li .btn-dash {
           background: transparent;
           border: transparent;
-          color: #333; }
+          color: #fff; }
           header .top-bar .top-bar-right ul li .btn-dash:focus {
             outline: none; }
   header .top-bar .top-bar-left {
@@ -27,6 +32,82 @@ header .top-bar {
         font-size: 15px;
         margin: 9px 15px; }
         header .top-bar .top-bar-left ul li a {
-          color: #333; }
+          color: #fff; }
+header .middle-bar .side-btn {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  header .middle-bar .side-btn li a {
+    background: #e72a1a;
+    color: #fff;
+    padding: 7px 15px;
+    display: inline-block;
+    border-radius: 6px;
+    font-family: "Quicksand", sans-serif; }
+
+/* Scss Document */
+div#hero-area {
+  background: url(../images/hero-area.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative; }
+  div#hero-area .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 59, 77, 0.88); }
+  div#hero-area .contents {
+    padding: 100px 0 140px; }
+    div#hero-area .contents .head-title {
+      color: #fff;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-family: "Roboto", sans-serif; }
+      div#hero-area .contents .head-title .year {
+        color: #e72a1a; }
+    div#hero-area .contents p {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 26px; }
+    div#hero-area .contents .search-bar {
+      margin-top: 40px; }
+      div#hero-area .contents .search-bar .search-inner {
+        margin: 0;
+        border: 0;
+        background: #fff;
+        overflow: hidden;
+        border-radius: 4px;
+        width: 100%;
+        float: left;
+        position: relative; }
+      div#hero-area .contents .search-bar .search-form {
+        width: 100%;
+        float: left; }
+        div#hero-area .contents .search-bar .search-form .form-group {
+          margin: 0; }
+          div#hero-area .contents .search-bar .search-form .form-group div {
+            padding: 0; }
+          div#hero-area .contents .search-bar .search-form .form-group .form-control {
+            height: 50px;
+            border: 0; }
+            div#hero-area .contents .search-bar .search-form .form-group .form-control:focus {
+              box-shadow: none; }
+          div#hero-area .contents .search-bar .search-form .form-group .btn-search {
+            background: #333;
+            color: #fff;
+            width: 92%;
+            margin: 4px;
+            padding: 8px;
+            font-size: 16px;
+            font-family: "Quicksand", sans-serif; }
+            div#hero-area .contents .search-bar .search-form .form-group .btn-search:hover {
+              background: #000;
+              color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
