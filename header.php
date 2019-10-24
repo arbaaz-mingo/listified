@@ -49,18 +49,10 @@
 						<div class="top-bar-right">
 							<ul>
 								<li>
-									<a href="#">
-										<i class="fas fa-user"></i>
-										<span>Register</span>
-									</a>
-								
-								</li>
-								<li>
 									<a href="#login" data-target="#login" data-toggle="modal">
 										<i class="fas fa-sign-in-alt"></i> 
-										<span>Login</span>
+										<span>Login &amp; Register</span>
 									</a>
-								
 								</li>
 								<li>
 									<div class="dropdown">

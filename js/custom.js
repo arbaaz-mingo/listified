@@ -26,32 +26,33 @@ $('.js-preloader').preloadinator({
 });
 
 $("#reg_click").on('click', function() {
-	$('.login-foo').hide();
-	$('.forgot-foo').hide();
-	$('.registerBox').show();
-	$('.loginBox').hide();
-	$('.forgotBox').hide();
 	$('.register-foo').show();
 	$('.forgot-hide').show();
+	$('.registerBox').show();
+	$('.login-foo').hide();
+	$('.forgot-foo').hide();
+	$('.loginBox').hide();
+	$('.forgotBox').hide();
+	
 });
 
 $("#login_click").on('click', function() {
 	$('.login-foo').show();
+	$('.loginBox').show();
+	$('.forgot-hide').show();
 	$('.forgot-foo').hide();
 	$('.registerBox').hide();
-	$('.loginBox').show();
 	$('.forgotBox').hide();
-	$('.forgot-hide').show();
 	$('.register-foo').hide();
 });
 
 $("#forgot_click").on('click', function() {
-	$('.login-foo').hide();
 	$('.forgot-foo').show();
+	$('.forgot-show').show();
 	$('.forgotBox').show();
+	$('.login-foo').hide();
 	$('.registerBox').hide();
 	$('.loginBox').hide();
 	$('.register-foo').hide();
 	$('.forgot-hide').hide();
-	$('.forgot-show').show();
 });
