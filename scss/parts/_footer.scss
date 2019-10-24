@@ -1,4 +1,5 @@
-.subscriber-section {
+footer {
+	.subscriber-section {
 	background: $primary;
 	padding: 10px;
 	.newsletter {
@@ -74,6 +75,146 @@
     				line-height: 30px;
 				}
 			}
+		}
+	}
+}
+	
+	.footer-middle {
+    	padding: 30px 0;
+		.links-foo {
+			h4 {
+				margin: 0 0 15px 0;
+    			font-size: 18px;
+    			font-size: 1.125rem;
+			}
+			ul {
+				padding: 0;
+				list-style: none;
+				li {
+					a {
+						font-family: $Poppins;
+						-moz-transition: all .3s ease-in-out;
+    					-o-transition: all .3s ease-in-out;
+    					-webkit-transition: all .3s ease-in-out;
+    					-ms-transition: all .3s ease-in-out;
+    					transition: all .3s ease-in-out;
+    					display: inline-block;
+    					position: relative;
+    					color: #555;
+						font-size: 15px;
+						&:hover {
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+		.contact-foo {
+			h4 {
+				margin: 0 0 15px 0;
+    			font-size: 18px;
+    			font-size: 1.125rem;
+			}
+			ul {
+				padding: 0;
+				list-style: none;
+				li {
+					padding: 0;
+					list-style: none;
+					font-family: $Poppins;
+					display: inline-block;
+    				position: relative;
+    				color: #555;
+					font-size: 15px;
+					margin-bottom: 10px;
+					i {
+						margin-right: 10px;
+						color:$primary;
+					}
+				}
+			}
+		}
+		
+		.list-foo {
+			h4 {
+				margin: 0 0 10px 0;
+    			font-size: 18px;
+    			font-size: 1.125rem;
+			}
+			.add-list-foo {
+				background: $dark;
+				margin-bottom: 10px;
+    			padding: 10px;
+    			border-radius: 4px;
+    			display: inline-block;
+    			width: 100%;
+    			color: $white;
+    			font-family: $Quicksand;
+    			text-align: center;
+				&:hover {
+					background: $darkest;
+					color: $white;
+					text-decoration: none;
+				}
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				li {
+					display: inline-block;
+					margin-right: 10px;
+					a {
+						color: #555;
+						font-size: 24px;
+					}
+				}
+			}
+		}
+	}
+	
+	.footer-bottom {
+		padding: 20px 0;
+		border-top:2px solid #E9E9E9;
+		p {
+			font-family: $Quicksand;
+			margin: 0;
+			font-weight: 600;
+			a {
+				color: $darkest;
+				font-weight: 800;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			i {
+				color: $primary;
+			}
+		}
+		.payment_supported {
+			float: right;
+			img {
+				&:nth-child(1) {
+					width: 41px;
+    				height: 29px;
+    				background: url(../images/app-download.png) 49px -2px;
+				}
+				&:nth-child(2) {
+					width: 41px;
+    				height: 29px;
+    				background: url(../images/app-download.png) 49px -34px;
+				}
+				&:nth-child(3) {
+					width: 41px;
+    				height: 29px;
+    				background: url(../images/app-download.png) 48px -64px;
+				}
+				&:nth-child(4) {
+					width: 41px;
+    				height: 29px;
+    				background: url(../images/app-download.png) 47px -96px;
+				}
+			}	
 		}
 	}
 }

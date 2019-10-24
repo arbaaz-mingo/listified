@@ -233,7 +233,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<?php for ($i = 0; $x <= 10; $i++) {?>
+					<?php for($i=1;$i<=6;$i++){?>
 					<div class="col-sm-4">
 						<div class="ad-list">
 							<a href="#">
