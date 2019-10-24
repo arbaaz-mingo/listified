@@ -217,7 +217,49 @@
 </section>
 <!-- End Featured Ads -- >
 
-
+<!-- Latest Ads -->
+<section class="latest-ads">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="google-left-ad">
+					<img src="images/ad.gif" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="section-title">Latest Ads</h1>
+					</div>
+				</div>
+				<div class="row">
+					<?php for ($i = 0; $x <= 10; $i++) {?>
+					<div class="col-sm-4">
+						<div class="ad-list">
+							<a href="#">
+								<div class="ad-image">
+									<img src="images/car.jpg" class="img-fluid">
+									<div class="price"><i class="fas fa-rupee-sign"></i> 170.000</div>
+								</div>
+								<div class="ad-desc">
+									<h3>Brand New Volvo V40 for Sale</h3>
+									<h5><i class="fas fa-chevron-right"></i> Commercial <span>March 27 - 12:00pm</span></h5>
+								</div>
+							</a>
+						</div>
+					</div>
+					<?php }?>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="google-right-ad">
+					<img src="images/ad.gif" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Latest Ads -->
 
 <!-- App Download -->
 <section class="app-section">
