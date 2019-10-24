@@ -56,7 +56,7 @@
 								
 								</li>
 								<li>
-									<a href="#">
+									<a href="#login" data-target="#login" data-toggle="modal">
 										<i class="fas fa-sign-in-alt"></i> 
 										<span>Login</span>
 									</a>

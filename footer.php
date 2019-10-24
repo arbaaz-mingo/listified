@@ -1,3 +1,73 @@
+<div class="modal login" id="login">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title login-foo">Login</h4>
+				<h4 class="modal-title register-foo" style="display: none;">Register</h4>
+				<h4 class="modal-title forgot-foo" style="display: none;">Forgot Password</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			</div>
+			<div class="modal-body">
+				<div class="box">
+					<div class="content">
+						<div class="social forgot-hide">
+                             <a class="circle github" href="#">
+                                 <i class="fab fa-github fa-fw"></i>
+                             </a>
+                             <a id="google_login" class="circle google" href="#">
+                                 <i class="fab fa-google fa-fw"></i>
+                             </a>
+                             <a id="facebook_login" class="circle facebook" href="#">
+                                 <i class="fab fa-facebook-f fa-fw"></i>
+                             </a>
+                        </div>
+						<div class="division forgot-hide">
+							<div class="line l"></div>
+							<span>or</span>
+							<div class="line r"></div>
+						</div>
+						<div class="error"></div>
+						<div class="form loginBox">
+							<form method="" action="" accept-charset="UTF-8">
+								<input class="form-control" type="text" placeholder="Email" name="email">
+								<input class="form-control" type="password" placeholder="Password" name="password">
+								<input class="btn btn-primary btn-login" type="button" value="Login">
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="content registerBox" style="display:none;">
+						<div class="form">
+							<form method="" data-remote="true" action="" accept-charset="UTF-8">
+								<input class="form-control" type="text" placeholder="Email" name="email">
+								<input class="form-control" type="password" placeholder="Password" name="password">
+								<input class="form-control" type="password" placeholder="Repeat Password">
+								<input class="btn btn-primary btn-register" type="button" value="Create account">
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<div class="box">
+					<div class="content forgotBox" style="display:none;">
+						<div class="form">
+							<form method="" data-remote="true" action="" accept-charset="UTF-8">
+								<input class="form-control" type="text" placeholder="Enter Registered Email" name="email">
+								<input class="btn btn-primary btn-forgot" type="button" value="Send Link">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<p class="login-foo"><a href="#" id="forgot_click">Forgot Password ?</a></p>
+				<p class="login-foo">Looking to <a href="#" id="reg_click">Create an account ?</a></p>
+				<p class="register-foo forgot-show" style="display:none;">Already have account ?<a href="#" id="login_click">Login</a></p>
+			</div>
+		</div>
+	</div>
+</div>
 <footer>
 	<div class="subscriber-section">
 		<div class="container">

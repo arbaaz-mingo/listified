@@ -361,6 +361,130 @@ div#hero-area {
         height: 58px;
         background: url(../images/app-download.png) 250px 59px; }
 
+.login .modal-dialog {
+  width: 350px; }
+.login .modal-header {
+  border: 0 none;
+  padding: 15px 15px 15px; }
+.login .modal-body .box .social {
+  float: none;
+  margin: 0 auto 30px;
+  text-align: center; }
+  .login .modal-body .box .social .circle {
+    color: #fff;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 0 17px;
+    height: 48px;
+    padding: 10px;
+    width: 48px;
+    line-height: 28px; }
+  .login .modal-body .box .social .github {
+    background-color: #403A3A; }
+    .login .modal-body .box .social .github:hover {
+      background-color: #4D4D4d; }
+  .login .modal-body .box .social .google {
+    background-color: #F74933; }
+    .login .modal-body .box .social .google:hover {
+      background-color: #FF7566; }
+  .login .modal-body .box .social .facebook {
+    background-color: #455CA8; }
+    .login .modal-body .box .social .facebook:hover {
+      background-color: #6E83CD; }
+.login .modal-body .box .division {
+  float: none;
+  margin: 0 auto 18px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  .login .modal-body .box .division span {
+    color: #333;
+    font-size: 17px; }
+  .login .modal-body .box .division .line {
+    border-top: 1px solid #DFDFDF;
+    position: absolute;
+    top: 10px;
+    width: 34%; }
+  .login .modal-body .box .division .l {
+    left: 0; }
+  .login .modal-body .box .division .r {
+    right: 0; }
+.login .modal-body .box .loginBox .form-control {
+  border-radius: 3px;
+  border: none;
+  color: #333333;
+  font-size: 16px;
+  height: 46px;
+  margin-bottom: 5px;
+  padding: 13px 12px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset; }
+.login .modal-body .box .loginBox .btn-login {
+  width: 100%;
+  text-transform: uppercase;
+  background: #e72a1a;
+  border: 0; }
+  .login .modal-body .box .loginBox .btn-login:hover {
+    background: #333;
+    text-decoration: none; }
+.login .modal-body .box .registerBox .form-control {
+  border-radius: 3px;
+  border: none;
+  color: #333333;
+  font-size: 16px;
+  height: 46px;
+  margin-bottom: 5px;
+  padding: 13px 12px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset; }
+.login .modal-body .box .registerBox .btn-register {
+  width: 100%;
+  text-transform: uppercase;
+  background: #e72a1a;
+  border: 0; }
+  .login .modal-body .box .registerBox .btn-register:hover {
+    background: #333;
+    text-decoration: none; }
+.login .modal-body .box .forgotBox .form-control {
+  border-radius: 3px;
+  border: none;
+  color: #333333;
+  font-size: 16px;
+  height: 46px;
+  margin-bottom: 5px;
+  padding: 13px 12px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset; }
+.login .modal-body .box .forgotBox .btn-forgot {
+  width: 100%;
+  text-transform: uppercase;
+  background: #e72a1a;
+  border: 0; }
+  .login .modal-body .box .forgotBox .btn-forgot:hover {
+    background: #333;
+    text-decoration: none; }
+.login .modal-footer {
+  border-top: 0;
+  margin-top: 0px;
+  padding: 10px 20px 20px;
+  text-align: center;
+  display: block; }
+  .login .modal-footer p {
+    margin: 0;
+    width: 100%; }
+    .login .modal-footer p a {
+      color: #222222;
+      font-weight: 500; }
+      .login .modal-footer p a:hover {
+        text-decoration: none; }
+
 footer .subscriber-section {
   background: #e72a1a;
   padding: 10px; }

@@ -1,0 +1,167 @@
+.login {
+	.modal-dialog {
+    	width: 350px;
+	}
+	.modal-header {
+    	border: 0 none;
+    	padding: 15px 15px 15px;
+	}
+	.modal-body {
+		.box{
+			.social {
+    			float: none;
+    			margin: 0 auto 30px;
+    			text-align: center;
+				.circle {
+    				color: $white;
+    				border-radius: 100px;
+    				display: inline-block;
+    				margin: 0 17px;
+					height: 48px;
+    				padding: 10px;
+    				width: 48px;
+    				line-height: 28px;
+				}
+				.github {
+					background-color: #403A3A;
+					&:hover {
+						background-color: #4D4D4d;
+					}
+				}
+				.google {
+    				background-color: #F74933;
+					&:hover {
+						background-color: #FF7566;
+					}
+				}
+				.facebook {
+					background-color: #455CA8;
+					&:hover {
+						background-color: #6E83CD;
+					}
+				}
+			}
+			.division {
+    			float: none;
+    			margin: 0 auto 18px;
+    			overflow: hidden;
+    			position: relative;
+    			text-align: center;
+    			width: 100%;
+				span {
+					color: $dark;
+    				font-size: 17px;
+				}
+				.line {
+					border-top: 1px solid #DFDFDF;
+    				position: absolute;
+    				top: 10px;
+    				width: 34%;
+				}
+				.l {
+    				left: 0;
+				}
+				.r {
+					right: 0;
+				}
+			}
+			.loginBox {
+				.form-control {
+					border-radius: 3px;
+    				border: none;
+    				color: #333333;
+    				font-size: 16px;
+    				height: 46px;
+    				margin-bottom: 5px;
+    				padding: 13px 12px;
+    				width: 100%;
+					border-radius: 3px;
+    				background-color: rgba(0, 0, 0, 0.09);
+    				box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+				}
+				.btn-login {
+					width: 100%;
+					text-transform: uppercase;
+					background: $primary;
+					border:0;
+					&:hover {
+						background: $dark;
+						text-decoration: none;
+						
+					}
+				}
+			}
+			.registerBox {
+				.form-control {
+					border-radius: 3px;
+    				border: none;
+    				color: #333333;
+    				font-size: 16px;
+    				height: 46px;
+    				margin-bottom: 5px;
+    				padding: 13px 12px;
+    				width: 100%;
+					border-radius: 3px;
+    				background-color: rgba(0, 0, 0, 0.09);
+    				box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+				}
+				.btn-register {
+					width: 100%;
+					text-transform: uppercase;
+					background: $primary;
+					border:0;
+					&:hover {
+						background: $dark;
+						text-decoration: none;
+						
+					}
+				}
+			}
+			.forgotBox {
+				.form-control {
+					border-radius: 3px;
+    				border: none;
+    				color: #333333;
+    				font-size: 16px;
+    				height: 46px;
+    				margin-bottom: 5px;
+    				padding: 13px 12px;
+    				width: 100%;
+					border-radius: 3px;
+    				background-color: rgba(0, 0, 0, 0.09);
+    				box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+				}
+				.btn-forgot {
+					width: 100%;
+					text-transform: uppercase;
+					background: $primary;
+					border:0;
+					&:hover {
+						background: $dark;
+						text-decoration: none;
+						
+					}
+				}
+			}
+		}
+	}
+	
+	.modal-footer {
+    	border-top: 0;
+    	margin-top: 0px;
+    	padding: 10px 20px 20px;
+		text-align: center;
+		display: block;
+		p {
+			margin: 0;
+			width: 100%;
+			a {
+				color: $darkest;
+				font-weight: 500;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
