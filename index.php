@@ -135,6 +135,90 @@
 </section>
 <!-- End Categories-->
 
+<!-- Ad Area -->
+<section class="ad-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<img src="images/ad.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+<!--End Ad Area -->
+
+<!-- Featured Ads -->
+<section class="featured-ads">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="section-title">Featured Ads</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="ad-list">
+					<a href="#">
+					<div class="feature-image">
+						<img src="images/car.jpg" class="img-fluid">
+						<div class="price"><i class="fas fa-rupee-sign"></i> 170.000</div>
+					</div>
+					<div class="featured-desc">
+            			<h3>Brand New Volvo V40 for Sale</h3>
+						<h5><i class="fas fa-chevron-right"></i> Commercial <span>March 27 - 12:00pm</span></h5>
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="ad-list">
+					<a href="#">
+					<div class="feature-image">
+						<img src="images/car.jpg" class="img-fluid">
+						<div class="price"><i class="fas fa-rupee-sign"></i> 170.000</div>
+					</div>
+					<div class="featured-desc">
+            			<h3>Brand New Volvo V40 for Sale</h3>
+						<h5><i class="fas fa-chevron-right"></i> Commercial <span>March 27 - 12:00pm</span></h5>
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="ad-list">
+					<a href="#">
+					<div class="feature-image">
+						<img src="images/car.jpg" class="img-fluid">
+						<div class="price"><i class="fas fa-rupee-sign"></i> 170.000</div>
+					</div>
+					<div class="featured-desc">
+            			<h3>Brand New Volvo V40 for Sale</h3>
+						<h5><i class="fas fa-chevron-right"></i> Commercial <span>March 27 - 12:00pm</span></h5>
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="ad-list">
+					<a href="#">
+					<div class="feature-image">
+						<img src="images/car.jpg" class="img-fluid">
+						<div class="price"><i class="fas fa-rupee-sign"></i> 170.000</div>
+					</div>
+					<div class="featured-desc">
+            			<h3>Brand New Volvo V40 for Sale</h3>
+						<h5><i class="fas fa-chevron-right"></i> Commercial <span>March 27 - 12:00pm</span></h5>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Featured Ads -- >
+
+
+
 <!-- App Download -->
 <section class="app-section">
 	<div class="container">
