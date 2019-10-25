@@ -1,0 +1,46 @@
+.categories-section {
+	padding: 50px 0;
+	background: $whitish;
+	.service-box1 {
+		border: 1px solid #e72a1a2e;
+    	-webkit-box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    	-moz-box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    	box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    	padding: 40px 20px 15px;
+    	-webkit-transition: all 0.5s ease-out;
+    	-moz-transition: all 0.5s ease-out;
+    	-ms-transition: all 0.5s ease-out;
+    	-o-transition: all 0.5s ease-out;
+    	transition: all 0.5s ease-out;
+		background: $white;
+		text-align: center;
+		img {
+			 margin: 0 auto 20px;
+		}
+		h3 {
+			margin: 0;
+			a {
+				color: $darkest;
+				transition: all 0.9s ease-out;
+				font-family: $Roboto;
+				font-size: 19px;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		.view {
+			color: #989898;
+    		font-weight: 500;
+    		font-family: $Roboto;
+    		margin-bottom: 20px;
+			font-size: 15px;
+		}
+		&:hover {
+			box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
+		}
+	}
+	.item-mb {
+    	margin-bottom: 30px;
+	}
+}

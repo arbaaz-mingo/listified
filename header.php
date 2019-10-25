@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/library/bootstrap-v4/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.11/css/bootstrap-select.css">	
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="css/library/owl-carousel-v2.3/owl.carousel.min.css">
@@ -94,7 +95,7 @@
 										<a class="nav-link" href="#">About Us</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#">Categories</a>
+										<a class="nav-link" href="categories.php">Categories</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#">Blog</a>
@@ -105,7 +106,7 @@
 								</ul>
 								<form class="form-inline my-2 my-lg-0">
 									<ul class="side-btn">
-										<li><a href="#"><i class="fas fa-pen-alt"></i> Post An Ad</a></li>
+										<li><a href="post-ad.php"><i class="fas fa-pen-alt"></i> Post An Ad</a></li>
 									</ul>
 								</form>
 							</div>

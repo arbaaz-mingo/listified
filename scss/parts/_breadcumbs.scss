@@ -1,0 +1,43 @@
+.breadcrumbarea {
+	width: 100%;
+    padding: 15px 0;
+	.breadcrumb {
+		margin: 0;
+    	padding: 0;
+    	color: #666;
+    	width: 100%;
+    	float: left;
+    	list-style: none;
+    	text-align: right;
+    	text-transform: capitalize;
+		background: transparent;
+    	font: 500 14px/20px $Quicksand;
+		li {
+			width: auto;
+    		float: left;
+    		padding: 0 15px;
+    		position: relative;
+    		line-height: inherit;
+    		list-style-type: none;
+			a {
+				color: $dark;
+			}
+			:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				font-weight: 700;
+				padding-right: 0;
+				color: $darkest;
+				&:after {
+					top: 0;
+    				left: -3px;
+    				content: '\f054';
+    				position: absolute;
+					font-weight: 700;
+    				font-family: $fa5;
+				}
+			}
+		}
+	}
+}

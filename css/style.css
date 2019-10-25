@@ -1,5 +1,5 @@
 /** Fonts **/
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
@@ -142,6 +142,109 @@ div#hero-area {
             div#hero-area .contents .search-bar .search-form .form-group .btn-search:hover {
               background: #000;
               color: #fff; }
+
+div#hero-inner {
+  background: url(../images/hero-area.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: relative; }
+  div#hero-inner .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 59, 77, 0.88); }
+  div#hero-inner .contents {
+    padding: 20px 0; }
+    div#hero-inner .contents .head-title {
+      color: #fff;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-family: "Roboto", sans-serif; }
+      div#hero-inner .contents .head-title .year {
+        color: #e72a1a; }
+    div#hero-inner .contents p {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 26px; }
+    div#hero-inner .contents .search-bar {
+      margin-top: 0;
+      display: inline-block;
+      width: 100%; }
+      div#hero-inner .contents .search-bar .search-inner {
+        margin: 0;
+        border: 0;
+        background: #fff;
+        overflow: hidden;
+        border-radius: 4px;
+        width: 100%;
+        float: left;
+        position: relative; }
+      div#hero-inner .contents .search-bar .search-form {
+        width: 100%;
+        float: left; }
+        div#hero-inner .contents .search-bar .search-form .form-group {
+          margin: 0; }
+          div#hero-inner .contents .search-bar .search-form .form-group div {
+            padding: 0; }
+          div#hero-inner .contents .search-bar .search-form .form-group .form-control {
+            height: 50px;
+            border: 0; }
+            div#hero-inner .contents .search-bar .search-form .form-group .form-control:focus {
+              box-shadow: none; }
+          div#hero-inner .contents .search-bar .search-form .form-group .btn-search {
+            background: #333;
+            color: #fff;
+            width: 92%;
+            margin: 4px;
+            padding: 8px;
+            font-size: 16px;
+            font-family: "Quicksand", sans-serif; }
+            div#hero-inner .contents .search-bar .search-form .form-group .btn-search:hover {
+              background: #000;
+              color: #fff; }
+
+.breadcrumbarea {
+  width: 100%;
+  padding: 15px 0; }
+  .breadcrumbarea .breadcrumb {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    width: 100%;
+    float: left;
+    list-style: none;
+    text-align: right;
+    text-transform: capitalize;
+    background: transparent;
+    font: 500 14px/20px "Quicksand", sans-serif; }
+    .breadcrumbarea .breadcrumb li {
+      width: auto;
+      float: left;
+      padding: 0 15px;
+      position: relative;
+      line-height: inherit;
+      list-style-type: none; }
+      .breadcrumbarea .breadcrumb li a {
+        color: #333; }
+      .breadcrumbarea .breadcrumb li :first-child {
+        padding-left: 0; }
+      .breadcrumbarea .breadcrumb li:last-child {
+        font-weight: 700;
+        padding-right: 0;
+        color: #222222; }
+        .breadcrumbarea .breadcrumb li:last-child:after {
+          top: 0;
+          left: -3px;
+          content: '\f054';
+          position: absolute;
+          font-weight: 700;
+          font-family: "Font Awesome 5 Free"; }
 
 .all-categories {
   padding: 50px 0; }
@@ -484,6 +587,81 @@ div#hero-area {
       font-weight: 500; }
       .login .modal-footer p a:hover {
         text-decoration: none; }
+
+.categories-section {
+  padding: 50px 0;
+  background: #f2f2f2; }
+  .categories-section .service-box1 {
+    border: 1px solid #e72a1a2e;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    padding: 40px 20px 15px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    background: #fff;
+    text-align: center; }
+    .categories-section .service-box1 img {
+      margin: 0 auto 20px; }
+    .categories-section .service-box1 h3 {
+      margin: 0; }
+      .categories-section .service-box1 h3 a {
+        color: #222222;
+        transition: all 0.9s ease-out;
+        font-family: "Roboto", sans-serif;
+        font-size: 19px; }
+        .categories-section .service-box1 h3 a:hover {
+          text-decoration: none; }
+    .categories-section .service-box1 .view {
+      color: #989898;
+      font-weight: 500;
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 20px;
+      font-size: 15px; }
+    .categories-section .service-box1:hover {
+      box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75); }
+  .categories-section .item-mb {
+    margin-bottom: 30px; }
+
+.post-ad-section {
+  padding: 50px 0; }
+  .post-ad-section .ad-wrapper {
+    border: 1px solid #e1e1e1;
+    background-color: #fff; }
+    .post-ad-section .ad-wrapper .ad-head .ad-title {
+      position: relative;
+      padding: 12px 30px;
+      background: linear-gradient(#fff, #e3e3e3), linear-gradient(#fff, #e3e3e3); }
+      .post-ad-section .ad-wrapper .ad-head .ad-title h2 {
+        position: relative;
+        font-size: 20px;
+        line-height: 1.4;
+        z-index: 3;
+        margin-bottom: 0;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-family: "Roboto", sans-serif; }
+    .post-ad-section .ad-wrapper .ad-form {
+      padding: 20px; }
+      .post-ad-section .ad-wrapper .ad-form .post-ad .section-ad-title h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 21px;
+        border-bottom: 1px solid #d9d9d9;
+        padding-bottom: 10px; }
+        .post-ad-section .ad-wrapper .ad-form .post-ad .section-ad-title h3 i {
+          color: #e72a1a;
+          padding-right: 10px; }
+      .post-ad-section .ad-wrapper .ad-form .post-ad .form-group .control-label {
+        float: right;
+        position: relative;
+        top: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+        color: #222222; }
 
 footer .subscriber-section {
   background: #e72a1a;

@@ -56,3 +56,7 @@ $("#forgot_click").on('click', function() {
 	$('.register-foo').hide();
 	$('.forgot-hide').hide();
 });
+
+$(function() {
+  $('.selectpicker').selectpicker();
+});
