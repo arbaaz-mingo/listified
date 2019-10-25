@@ -97,6 +97,105 @@
 									<textarea class="form-control" rows="4" cols="8" placeholder="Describe your ad"></textarea>
 								</div>
 							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Country<span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<select data-live-search="true"  class="form-control selectpicker">
+										<option>Select Country</option>
+									</select>
+								</div>
+								<div class="col-sm-2 col-12">
+									<label class="control-label">State<span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<select data-live-search="true"  class="form-control selectpicker">
+										<option>Select State</option>
+									</select>
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-2 col-12">
+									<label class="control-label">City<span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<select data-live-search="true"  class="form-control selectpicker">
+										<option>Select City</option>
+									</select>
+								</div>
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Locality<span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<select data-live-search="true" class="form-control selectpicker">
+										<option>Select Locality</option>
+									</select>
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Photos<span> *</span></label>
+								</div>
+								<div class="col-sm-3 col-12">
+									<input type="file" class="form-control">
+								</div>
+								<div class="col-sm-3 col-12">
+									<input type="file" class="form-control">
+								</div>
+								<div class="col-sm-3 col-12">
+									<input type="file" class="form-control">
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-12">
+									<div class="section-ad-title">
+										<h3><i class="fas fa-user"></i> Seller Information</h3>
+									</div>
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Name<span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<input type="text" class="form-control" placeholder="Enter Name">
+								</div>
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Email<span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<input type="text" class="form-control" placeholder="Enter Email">
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Mobile No. <span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<input type="text" class="form-control" placeholder="Enter Mobile No.">
+								</div>
+								<div class="col-sm-3 col-12">
+									<label class="control-label">Hide Mobile No. <span> *</span></label>
+								</div>
+								<div class="col-sm-3 col-12">
+									<label><input type="radio" name="hide_phone_no"> Yes</label>
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-12">
+									<div class="section-ad-title">
+										<h3><i class="fas fa-star"></i> Make Your Ad Premium</h3>
+									</div>
+								</div>
+							</div>
 						</form>
 					</div>
 				</div>
