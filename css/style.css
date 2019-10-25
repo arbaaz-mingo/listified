@@ -646,14 +646,16 @@ div#hero-inner {
         font-family: "Roboto", sans-serif; }
     .post-ad-section .ad-wrapper .ad-form {
       padding: 20px; }
-      .post-ad-section .ad-wrapper .ad-form .post-ad .section-ad-title h3 {
-        font-family: "Roboto", sans-serif;
-        font-size: 21px;
-        border-bottom: 1px solid #d9d9d9;
-        padding-bottom: 10px; }
-        .post-ad-section .ad-wrapper .ad-form .post-ad .section-ad-title h3 i {
-          color: #e72a1a;
-          padding-right: 10px; }
+      .post-ad-section .ad-wrapper .ad-form .post-ad .section-ad-title {
+        margin-top: 30px; }
+        .post-ad-section .ad-wrapper .ad-form .post-ad .section-ad-title h3 {
+          font-family: "Roboto", sans-serif;
+          font-size: 21px;
+          border-bottom: 1px solid #d9d9d9;
+          padding-bottom: 10px; }
+          .post-ad-section .ad-wrapper .ad-form .post-ad .section-ad-title h3 i {
+            color: #e72a1a;
+            padding-right: 10px; }
       .post-ad-section .ad-wrapper .ad-form .post-ad .form-group .control-label {
         float: right;
         position: relative;
@@ -664,6 +666,17 @@ div#hero-inner {
         color: #222222; }
         .post-ad-section .ad-wrapper .ad-form .post-ad .form-group .control-label span {
           color: #e72a1a; }
+      .post-ad-section .ad-wrapper .ad-form .post-ad .btn-post {
+        background: #333;
+        margin-bottom: 10px;
+        padding: 10px 40px;
+        border-radius: 4px;
+        display: inline-block;
+        color: #fff;
+        font-family: "Quicksand", sans-serif;
+        text-align: center; }
+        .post-ad-section .ad-wrapper .ad-form .post-ad .btn-post:hover {
+          background: #222222; }
       .post-ad-section .ad-wrapper .ad-form .post-ad .btn.dropdown-toggle.btn-light {
         border: 1px solid #c3c3c3; }
 

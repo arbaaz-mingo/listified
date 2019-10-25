@@ -24,7 +24,7 @@
 			padding: 20px;
 			.post-ad {
 				.section-ad-title {
-					margin-top: 30px
+					margin-top: 30px;
 					h3 {
 						font-family: $Roboto;
 						font-size: 21px;
@@ -48,6 +48,19 @@
 						span {
 							color: $primary;
 						}
+					}
+				}
+				.btn-post {
+					background: $dark;
+    				margin-bottom: 10px;
+    				padding: 10px 40px;
+    				border-radius: 4px;
+    				display: inline-block;
+    				color: $white;
+    				font-family: $Quicksand;
+    				text-align: center;
+					&:hover {
+						background: $darkest;
 					}
 				}
 				.btn.dropdown-toggle.btn-light {

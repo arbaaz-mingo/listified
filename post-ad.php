@@ -196,6 +196,12 @@
 									</div>
 								</div>
 							</div>
+							
+							<div class="form-action row">
+								<div class="col-sm-12 text-center">
+									<button class="btn btn-post" type="submit">Submit Ad</button>
+								</div>
+							</div>
 						</form>
 					</div>
 				</div>
