@@ -33,12 +33,22 @@
 								</div>
 							</div>
 							<div class="form-group row">
-								<div class="col-sm-3 col-12">
+								<div class="col-sm-2 col-12">
 									<label class="control-label">Category<span> *</span></label>
 								</div>
-								<div class="col-sm-9 col-12">
+								<div class="col-sm-4 col-12">
 									<select data-live-search="true"  class="form-control selectpicker">
 										<option value="">Select Category</option>
+										<option value="1">Mobile &amp; Tablets</option>
+										<option value="2">Electronics</option>
+									</select>
+								</div>
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Sub Category<span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<select data-live-search="true"  class="form-control selectpicker">
+										<option value="">Select Sub Category</option>
 										<option value="1">Mobile &amp; Tablets</option>
 										<option value="2">Electronics</option>
 									</select>
@@ -46,12 +56,45 @@
 							</div>
 							
 							<div class="form-group row">
-								<div class="col-sm-3 col-12">
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Select Brand<span> *</span></label>
+								</div>
+								<div class="col-sm-4 col-12">
+									<select data-live-search="true"  class="form-control selectpicker">
+										<option value="">Select Brand</option>
+										<option value="1">Nokia</option>
+									</select>
+								</div>
+								<div class="col-sm-2 col-12">
 									<label class="control-label">Ad Type<span> *</span></label>
 								</div>
-								<div class="col-sm-9 col-12">
-									<input type="radio" class="form-control" name="ad_type"> Personal
-									<input type="radio" class="form-control" name="ad_type"> Business
+								<div class="col-sm-4 col-12">
+									<label><input type="radio" name="ad_type"> Personal</label>&nbsp;&nbsp;
+									<label><input type="radio" name="ad_type"> Business</label>
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Ad Title<span> *</span></label>
+								</div>
+								<div class="col-sm-5 col-12">
+									<input type="text" class="form-control" placeholder="Enter Ad Title">
+								</div>
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Set Price<span> *</span></label>
+								</div>
+								<div class="col-sm-3 col-12">
+									<input type="number" class="form-control" placeholder="Enter Price">
+								</div>
+							</div>
+							
+							<div class="form-group row">
+								<div class="col-sm-2 col-12">
+									<label class="control-label">Description<span> *</span></label>
+								</div>
+								<div class="col-sm-10 col-12">
+									<textarea class="form-control" rows="4" cols="8" placeholder="Describe your ad"></textarea>
 								</div>
 							</div>
 						</form>
