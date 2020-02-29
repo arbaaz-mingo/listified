@@ -91,7 +91,6 @@
     </div>
   </div>
 </section>
-
 <section class="fresh-ads">
   <div class="container">
     <div class="row">

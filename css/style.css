@@ -261,6 +261,7 @@ header .middle-header .navbar {
           color: #fff;
           font-size: 13px; }
     .featured-ads .ad-list-main .ad-text {
+      font-family: "Nunito", sans-serif;
       background: #f8f9fa;
       padding: 10px 15px;
       border: 1px solid #eeeeee; }
@@ -317,6 +318,7 @@ header .middle-header .navbar {
           color: #fff;
           font-size: 13px; }
     .fresh-ads .ad-list-main .ad-text {
+      font-family: "Nunito", sans-serif;
       background: #f8f9fa;
       padding: 10px 15px;
       border: 1px solid #eeeeee; }
