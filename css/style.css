@@ -182,4 +182,183 @@ header .middle-header .navbar {
         outline: none;
         box-shadow: none; }
 
+.category-section-h .all-category-h {
+  position: absolute;
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 6px 1px #3333338f;
+  width: 100%;
+  top: -4em; }
+  .category-section-h .all-category-h .owl-nav button {
+    background: #fff !important;
+    color: #ef6c00 !important;
+    height: 27px;
+    width: 27px;
+    box-shadow: -2px 5px 6px 1px #33333317;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px !important; }
+    .category-section-h .all-category-h .owl-nav button:hover, .category-section-h .all-category-h .owl-nav button:focus {
+      outline: none;
+      box-shadow: none; }
+  .category-section-h .all-category-h .owl-nav .owl-prev {
+    position: absolute;
+    top: 40%;
+    left: -12px; }
+  .category-section-h .all-category-h .owl-nav .owl-next {
+    position: absolute;
+    top: 40%;
+    right: -12px; }
+  .category-section-h .all-category-h .cat-links {
+    text-align: center; }
+    .category-section-h .all-category-h .cat-links a {
+      color: #333;
+      font-family: "Nunito", sans-serif; }
+      .category-section-h .all-category-h .cat-links a img {
+        height: 45px;
+        width: 45px !important;
+        margin: 0 auto; }
+      .category-section-h .all-category-h .cat-links a span {
+        padding: 5px 0;
+        display: block;
+        font-weight: 600; }
+      .category-section-h .all-category-h .cat-links a:hover {
+        text-decoration: none; }
+
+.mt-20 {
+  margin-top: 20px; }
+
+.featured-ads {
+  padding: 3em 0; }
+  .featured-ads .heading-m {
+    margin-bottom: 30px;
+    text-align: center; }
+    .featured-ads .heading-m h4 {
+      margin: 0;
+      font-family: "Quicksand", sans-serif;
+      font-weight: 600;
+      color: #3d4651;
+      font-size: 2em; }
+    .featured-ads .heading-m p {
+      margin: 4px 0;
+      font-family: "Roboto", sans-serif; }
+  .featured-ads .ad-list-main {
+    margin-bottom: 20px;
+    background: #fbfbfb; }
+    .featured-ads .ad-list-main .ad-img {
+      overflow: hidden;
+      position: relative; }
+      .featured-ads .ad-list-main .ad-img .ad-new {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        padding: 4px 17px;
+        background: #fbaf2a;
+        border-radius: 16px;
+        line-height: 18px; }
+        .featured-ads .ad-list-main .ad-img .ad-new a {
+          color: #fff;
+          font-size: 13px; }
+    .featured-ads .ad-list-main .ad-text {
+      background: #f8f9fa;
+      padding: 10px 15px;
+      border: 1px solid #eeeeee; }
+      .featured-ads .ad-list-main .ad-text .text-top .heading a {
+        color: #3a3a3a;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.6px; }
+      .featured-ads .ad-list-main .ad-text .text-stars p {
+        margin: 0;
+        color: #777; }
+      .featured-ads .ad-list-main .ad-text .text-stars i {
+        color: #fbaf2a;
+        font-size: 14px; }
+      .featured-ads .ad-list-main .ad-text .ad-bottom {
+        margin-top: 20px;
+        color: #333; }
+        .featured-ads .ad-list-main .ad-text .ad-bottom i {
+          color: #ef6c00; }
+  .featured-ads .show-all-ads {
+    background: #ef6c00;
+    border-radius: 20px;
+    padding: 6px 25px;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 2s ease;
+    font-family: "Nunito", sans-serif; }
+    .featured-ads .show-all-ads:hover {
+      text-decoration: none; }
+
+.top-extra-space {
+  padding-top: 5em; }
+
+.fresh-ads {
+  background: #f2f2f2;
+  padding: 3em 0; }
+  .fresh-ads .ad-list-main {
+    margin-bottom: 20px;
+    background: #fbfbfb; }
+    .fresh-ads .ad-list-main .ad-img {
+      overflow: hidden;
+      position: relative; }
+      .fresh-ads .ad-list-main .ad-img .ad-new {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        padding: 4px 17px;
+        background: #fbaf2a;
+        border-radius: 16px;
+        line-height: 18px; }
+        .fresh-ads .ad-list-main .ad-img .ad-new a {
+          color: #fff;
+          font-size: 13px; }
+    .fresh-ads .ad-list-main .ad-text {
+      background: #f8f9fa;
+      padding: 10px 15px;
+      border: 1px solid #eeeeee; }
+      .fresh-ads .ad-list-main .ad-text .text-top .heading a {
+        color: #3a3a3a;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.6px; }
+      .fresh-ads .ad-list-main .ad-text .text-stars p {
+        margin: 0;
+        color: #777; }
+      .fresh-ads .ad-list-main .ad-text .text-stars i {
+        color: #fbaf2a;
+        font-size: 14px; }
+      .fresh-ads .ad-list-main .ad-text .ad-bottom {
+        margin-top: 20px;
+        color: #333; }
+        .fresh-ads .ad-list-main .ad-text .ad-bottom i {
+          color: #ef6c00; }
+  .fresh-ads .show-all-ads {
+    background: #ef6c00;
+    border-radius: 20px;
+    padding: 6px 25px;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 2s ease;
+    font-family: "Nunito", sans-serif; }
+    .fresh-ads .show-all-ads:hover {
+      text-decoration: none; }
+  .fresh-ads .heading-m {
+    margin-bottom: 30px;
+    text-align: center; }
+    .fresh-ads .heading-m h4 {
+      margin: 0;
+      font-family: "Quicksand", sans-serif;
+      font-weight: 600;
+      color: #3d4651;
+      font-size: 2em; }
+    .fresh-ads .heading-m p {
+      margin: 4px 0;
+      font-family: "Roboto", sans-serif; }
+
 /*# sourceMappingURL=style.css.map */

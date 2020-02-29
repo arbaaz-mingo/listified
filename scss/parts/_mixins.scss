@@ -1,2 +1,87 @@
 /* Scss Document */
-
+@mixin heading() {
+	.heading-m {
+		margin-bottom: 30px;
+		text-align: center;
+		h4 {
+    		margin: 0;
+    		font-family: $Quicksand;
+    		font-weight: 600;
+    		color: $primary-d;
+    		font-size: 2em;
+		}
+		p {
+			margin: 4px 0;
+    		font-family: $Roboto;
+		}
+	}
+}
+@mixin ad-style-1(){
+	.ad-list-main {
+		margin-bottom: 20px;
+		background: #fbfbfb;
+		.ad-img {
+    		overflow: hidden;
+    		position: relative;
+			.ad-new {
+    			position: absolute;
+    			top: 15px;
+    			left: 15px;
+    			padding: 4px 17px;
+    			background: #fbaf2a;
+    			border-radius: 16px;
+    			line-height: 18px;
+				a {
+					color: $white;
+    				font-size: 13px;
+				}
+			}
+		}
+		.ad-text {
+			    background: $grey-l;
+    			padding: 10px 15px;
+    			border: 1px solid #eeeeee;
+			.text-top {
+				.heading {
+					a {
+    					color: #3a3a3a;
+    					text-decoration: none;
+    					font-size: 18px;
+    					font-weight: 600;
+    					letter-spacing: 0.6px;
+					}
+				}
+			}
+			.text-stars {
+				p {
+					margin: 0;
+					color: #777;
+				}
+				i {
+					color: #fbaf2a;
+					font-size: 14px;
+				}
+			}
+			.ad-bottom {
+				margin-top: 20px;
+				color: $dark;
+				i {
+					color:$primary;
+				}
+			}
+		}
+	}
+	.show-all-ads {
+    	background: $primary;
+    	border-radius: 20px;
+    	padding: 6px 25px;
+    	color: $white;
+    	font-size: 1.2em;
+    	cursor: pointer;
+    	transition: all 2s ease;
+    	font-family: $Nunito;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

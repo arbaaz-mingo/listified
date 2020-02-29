@@ -1,6 +1,7 @@
 $('.all-category-h').owlCarousel({
-    loop:true,
+    loop:false,
     margin:20,
+	dots:false,
     nav:true,
 	navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
     responsive:{
